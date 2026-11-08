@@ -1,0 +1,331 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT" pages="3">
+  <diagram id="p0" name="1 - Start and customer intents">
+    <mxGraphModel dx="2054" dy="1272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1810" pageHeight="1360" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E5DDF3;strokeColor=#7D5CA6;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="START" vertex="1">
+          <mxGeometry height="65" width="220" x="650" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="q" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E9FF;strokeColor=#3569A7;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="WAITER: Are you ready to order?" vertex="1">
+          <mxGeometry height="80" width="300" x="610" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dec" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C2;strokeColor=#B98724;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;shape=rhombus;perimeter=rhombusPerimeter;" value="CUSTOMER RESPONSE" vertex="1">
+          <mxGeometry height="105" width="240" x="640" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="no" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E9FF;strokeColor=#3569A7;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="WAITER: Of course. I’ll come back in a few minutes." vertex="1">
+          <mxGeometry height="85" width="360" x="60" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="wait" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E5DDF3;strokeColor=#7D5CA6;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="WAIT / return later" vertex="1">
+          <mxGeometry height="70" width="280" x="10" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="yes" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E9FF;strokeColor=#3569A7;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="WAITER: Great! What would you like to order?" vertex="1">
+          <mxGeometry height="85" width="360" x="640" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="menu" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C2;strokeColor=#B98724;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;shape=rhombus;perimeter=rhombusPerimeter;" value="CUSTOMER: Could I see the menu first?" vertex="1">
+          <mxGeometry height="85" width="370" x="1070" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="menures" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E9FF;strokeColor=#3569A7;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="WAITER: Certainly. We have grilled salmon, pasta and chicken salad today.&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="350" x="1080" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="intent" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C2;strokeColor=#B98724;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;shape=rhombus;perimeter=rhombusPerimeter;" value="CUSTOMER RESPONSE" vertex="1">
+          <mxGeometry height="105" width="240" x="640" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="special" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C2;strokeColor=#B98724;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;shape=rhombus;perimeter=rhombusPerimeter;" value="CUSTOMER: What is today’s special?" vertex="1">
+          <mxGeometry height="85" width="360" x="40" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="discount" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C2;strokeColor=#B98724;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;shape=rhombus;perimeter=rhombusPerimeter;" value="CUSTOMER: Do you have any discounts today?" vertex="1">
+          <mxGeometry height="85" width="380" x="570" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="direct" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C2;strokeColor=#B98724;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;shape=rhombus;perimeter=rhombusPerimeter;" value="CUSTOMER: I’d like to order [a dish]." vertex="1">
+          <mxGeometry height="85" width="380" x="960" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="other" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C2;strokeColor=#B98724;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;shape=rhombus;perimeter=rhombusPerimeter;" value="CUSTOMER: I need a recommendation." vertex="1">
+          <mxGeometry height="85" width="360" x="1370" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="sres" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E9FF;strokeColor=#3569A7;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="WAITER: Today’s special is grilled salmon with rice." vertex="1">
+          <mxGeometry height="90" width="360" x="40" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="dres" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E9FF;strokeColor=#3569A7;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="WAITER: Yes, our pasta is discounted today." vertex="1">
+          <mxGeometry height="90" width="380" x="470" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="ores" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E9FF;strokeColor=#3569A7;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="WAITER: I recommend our chicken salad." vertex="1">
+          <mxGeometry height="90" width="360" x="1370" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="follow" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E9FF;strokeColor=#3569A7;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="WAITER: Would you like to order that, or something else?" vertex="1">
+          <mxGeometry height="85" width="520" x="400" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="handoff" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E5DDF3;strokeColor=#7D5CA6;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="CONTINUE TO PAGE 2: PLACING THE ORDER" vertex="1">
+          <mxGeometry height="70" width="470" x="1010" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="start" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="q" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="q" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="dec" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="dec" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="no" value="Not yet">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="no" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="wait" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="wait" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="Waiter returns">
+          <mxGeometry relative="1" x="-0.1243" as="geometry">
+            <mxPoint x="120" y="625" as="sourcePoint" />
+            <mxPoint x="560" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="dec" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="yes" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="dec" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="menu" value="See menu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="menu" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="menures" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="menures" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="dec" value="After browsing">
+          <mxGeometry relative="1" x="-0.684" as="geometry">
+            <Array as="points">
+              <mxPoint x="1450" y="610" />
+              <mxPoint x="1450" y="260" />
+              <mxPoint x="1060" y="260" />
+              <mxPoint x="1060" y="320" />
+              <mxPoint x="880" y="320" />
+            </Array>
+            <mxPoint x="1700" y="405" as="sourcePoint" />
+            <mxPoint x="1440" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="intent" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="intent" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="special" value="Ask about special">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="intent" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="discount" value="Ask about discounts">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="intent" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="direct" value="Order directly">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="intent" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="other" value="Ask for recommendation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="special" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="sres" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="discount" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="dres" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="other" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="ores" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="sres" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="follow" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" source="dres" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="follow" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21" edge="1" parent="1" source="follow" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="handoff" value="Choose dish">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e22" edge="1" parent="1" source="direct" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="handoff" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NmgQ8o8ZSyiO6TkaypZl-4" edge="1" parent="1" source="ores" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;exitX=0.528;exitY=1.022;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="handoff" value="">
+          <mxGeometry relative="1" x="0.1147" as="geometry">
+            <mxPoint x="1500" y="1170" as="sourcePoint" />
+            <mxPoint x="1595" y="1445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p1" name="2 - Drinks confirmation and revisions">
+    <mxGraphModel dx="4556" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1780" pageHeight="1780" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="entry" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E5DDF3;strokeColor=#7D5CA6;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="FROM PAGE 1: Customer chooses a dish" vertex="1">
+          <mxGeometry height="75" width="500" x="600" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ask" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E9FF;strokeColor=#3569A7;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="WAITER: Would you like anything to drink? We have water, lemonade and ginger tea" vertex="1">
+          <mxGeometry height="85" width="340" x="680" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="drink" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C2;strokeColor=#B98724;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;shape=rhombus;perimeter=rhombusPerimeter;" value="CUSTOMER RESPONSE" vertex="1">
+          <mxGeometry height="110" width="280" x="710" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="water" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C2;strokeColor=#B98724;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;shape=rhombus;perimeter=rhombusPerimeter;" value="CUSTOMER: Just water, please." vertex="1">
+          <mxGeometry height="85" width="350" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="soda" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C2;strokeColor=#B98724;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;shape=rhombus;perimeter=rhombusPerimeter;" value="CUSTOMER: A lemonade, please." vertex="1">
+          <mxGeometry height="85" width="350" x="350" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="none" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C2;strokeColor=#B98724;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;shape=rhombus;perimeter=rhombusPerimeter;" value="CUSTOMER: No drink, thank you." vertex="1">
+          <mxGeometry height="85" width="350" x="930" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="askagain" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C2;strokeColor=#B98724;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;shape=rhombus;perimeter=rhombusPerimeter;" value="CUSTOMER: What drinks do you have?" vertex="1">
+          <mxGeometry height="85" width="360" x="1350" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="menu" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E9FF;strokeColor=#3569A7;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="WAITER: We have water, lemonade and tea." vertex="1">
+          <mxGeometry height="90" width="360" x="1350" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="confirm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E9FF;strokeColor=#3569A7;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="WAITER: So that’s [chosen dish] and [chosen drink]. Is that correct?" vertex="1">
+          <mxGeometry height="95" width="580" x="570" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="decision" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C2;strokeColor=#B98724;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;shape=rhombus;perimeter=rhombusPerimeter;" value="CUSTOMER RESPONSE" vertex="1">
+          <mxGeometry height="105" width="280" x="720" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="correct" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E9FF;strokeColor=#3569A7;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="WAITER: Perfect. I’ll bring your order shortly." vertex="1">
+          <mxGeometry height="90" width="450" x="60" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="change" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C2;strokeColor=#B98724;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;shape=rhombus;perimeter=rhombusPerimeter;" value="CUSTOMER: Actually, I’d like to change my order." vertex="1">
+          <mxGeometry height="90" width="490" x="600" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="cancel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C2;strokeColor=#B98724;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;shape=rhombus;perimeter=rhombusPerimeter;" value="CUSTOMER: Sorry, I don’t want to order anymore." vertex="1">
+          <mxGeometry height="90" width="460" x="1220" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="changeask" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E9FF;strokeColor=#3569A7;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="WAITER: Of course. What would you like instead?" vertex="1">
+          <mxGeometry height="90" width="490" x="600" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="end" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDF2E2;strokeColor=#438A5E;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="END: Order placed" vertex="1">
+          <mxGeometry height="75" width="380" x="80" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="cancelres" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E9FF;strokeColor=#3569A7;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="WAITER: No problem. Let me know if you need anything." vertex="1">
+          <mxGeometry height="90" width="460" x="1220" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="cancelend" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDF2E2;strokeColor=#438A5E;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="END: No order" vertex="1">
+          <mxGeometry height="75" width="370" x="1260" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="newdish" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C2;strokeColor=#B98724;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;shape=rhombus;perimeter=rhombusPerimeter;" value="CUSTOMER: [Another dish] / ask about specials / discounts" vertex="1">
+          <mxGeometry height="95" width="570" x="570" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F3F5;strokeColor=#858B95;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" value="Fixed vocabulary: grilled salmon, pasta, chicken salad; water, lemonade, tea. All branches are predetermined. Bracketed phrases are recording templates to replace with concrete clips." vertex="1">
+          <mxGeometry height="100" width="1650" x="50" y="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="entry" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="ask" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="ask" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="drink" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="drink" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="water" value="Water">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="drink" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="soda" value="Lemonade">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="drink" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="none" value="No drink">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="drink" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="askagain" value="Ask options">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="askagain" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="menu" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="soda" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="confirm" value="">
+          <mxGeometry relative="1" x="0.65" as="geometry">
+            <Array as="points">
+              <mxPoint x="525" y="740" />
+              <mxPoint x="740" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="none" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="confirm" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1105" y="720" />
+              <mxPoint x="1105" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="confirm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="decision" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="decision" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="correct" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="decision" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="change" value="Change order">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="decision" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="cancel" value="Cancel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="correct" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="end" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="change" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="changeask" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="changeask" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="newdish" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="1" source="cancel" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="cancelres" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e20" edge="1" parent="1" source="cancelres" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;" target="cancelend" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2c6GOkFLQagWMVojF2C1-1" edge="1" parent="1" source="water" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;entryX=0;entryY=0.632;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="confirm" value="">
+          <mxGeometry relative="1" x="0.5625" as="geometry">
+            <mxPoint x="260" y="610" as="sourcePoint" />
+            <mxPoint x="220" y="715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2c6GOkFLQagWMVojF2C1-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0C2;strokeColor=#B98724;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;shape=rhombus;perimeter=rhombusPerimeter;" value="CUSTOMER: tea, please." vertex="1">
+          <mxGeometry height="85" width="350" x="620" y="573" as="geometry" />
+        </mxCell>
+        <mxCell id="2c6GOkFLQagWMVojF2C1-3" edge="1" parent="1" source="drink" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;exitX=0.035;exitY=0.525;exitDx=0;exitDy=0;exitPerimeter=0;" target="2c6GOkFLQagWMVojF2C1-2" value="tea">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="395" as="sourcePoint" />
+            <mxPoint x="535" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2c6GOkFLQagWMVojF2C1-5" edge="1" parent="1" source="2c6GOkFLQagWMVojF2C1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66788B;strokeWidth=2;endArrow=block;endFill=1;fontSize=14;fontColor=#243243;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="confirm" value="">
+          <mxGeometry relative="1" x="0.5258" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="658" />
+            </Array>
+            <mxPoint x="535" y="615" as="sourcePoint" />
+            <mxPoint x="750" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p2" name="3 - Implementation notes">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1340" pageHeight="1120" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="CLOSED-FORM DESIGN RULES" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E5DDF3;strokeColor=#7D5CA6;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="250" y="50" width="800" height="90" />
+        </mxCell>
+        <mxCell id="a" value="1. Every customer response has a predefined intent (not a numbered selection)." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F3F5;strokeColor=#858B95;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="120" y="200" width="1080" height="85" />
+        </mxCell>
+        <mxCell id="b" value="2. The wizard listens to the participant and clicks the matching intent in MATLAB." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F3F5;strokeColor=#858B95;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="120" y="320" width="1080" height="85" />
+        </mxCell>
+        <mxCell id="c" value="3. Every waiter response is a prerecorded WAV clip with a stable ID." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F3F5;strokeColor=#858B95;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="120" y="440" width="1080" height="85" />
+        </mxCell>
+        <mxCell id="d" value="4. Free-form wording can map to a fixed intent; unsupported replies trigger a fallback." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F3F5;strokeColor=#858B95;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="120" y="560" width="1080" height="85" />
+        </mxCell>
+        <mxCell id="e" value="5. The same dialogue state can be revisited (e.g., ask about specials again)." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F3F5;strokeColor=#858B95;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="120" y="680" width="1080" height="85" />
+        </mxCell>
+        <mxCell id="f" value="6. Replace [chosen dish] and [chosen drink] with concrete prerecorded combinations or record separate segments." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F3F5;strokeColor=#858B95;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="120" y="800" width="1080" height="100" />
+        </mxCell>
+        <mxCell id="g" value="Suggested fallback waiter line: “Sorry, could you choose from our menu?”" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9E9FF;strokeColor=#3569A7;strokeWidth=2;fontSize=16;fontColor=#17212F;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="120" y="940" width="1080" height="85" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
